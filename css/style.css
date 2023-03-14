@@ -1,0 +1,314 @@
+body {
+    width: 100%;
+    background: linear-gradient(75deg, #af0273, #784ba0, #000ba4);
+    animation: gradient 5s ease infinite;
+    background-size: 200% 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: outfit;
+}   
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+.wrapper {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+}
+.container {
+    height: 100vh;
+}
+@media screen and (max-width: 1000px) {
+    .container {
+        height: 50vh;
+    }
+}
+/* ------------------------------  1 PAGE  ------------------------------ */
+.firstPage {
+    display: grid;
+	grid-template-columns: 1fr 1fr;
+    text-align: center;
+    justify-items: center;
+    width: 90%;
+    margin: auto;
+}
+.firstPage-element {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    flex: 1 1 auto;
+    margin: auto;
+    width: 100%;
+}
+.logo {
+    text-align: right;
+    justify-items: center;
+    margin: 10px;
+}
+.logo img {
+    width: 60%;
+}
+.text {
+    width: 100%;
+    text-align: left;
+    justify-items: center;
+    margin: auto;
+}
+#typed {
+    font-family: raleway;
+    color: #5c1cc4;
+    font-weight: 600;
+    font-size: calc(var(--index) * 2);
+}
+.mobile  {
+    width: 50%;
+}
+/* ------------------------------  2 PAGE  ------------------------------ */
+.secondPage {
+    display: grid;
+	grid-template-columns: 1fr 1fr;
+    text-align: center;
+    justify-items: center;
+}
+.secondPage-element {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    margin: auto;
+}
+.element-text {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    font-size: calc(var(--index) * 1);
+    justify-content: space-around;
+    height: 50%;
+}
+.element-text h1 {
+    font-family: raleway;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: calc(var(--index) * 2);
+}
+@media screen and (max-width: 1000px) {
+    .element-text {
+        height: 105%;
+    }
+    .element-text h1 {
+        color: #5c1cc4;
+    }
+}
+.secondPage-element img {
+    width: 80%;
+}
+/* ------------------------------  3 PAGE  ------------------------------ */
+.thristPage {
+    padding-top: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.thristPage h1 {
+    font-family: raleway;
+    font-weight: 600;
+    font-size: calc(var(--index) * 2);
+}
+@media screen and (max-width: 1000px) {
+    .thristPage {
+        padding-top: 20%;
+    }
+}
+.thristPage-element img {
+    padding-bottom: 20%;
+    width: 90%;
+}
+/* ------------------------------  4 PAGE  ------------------------------ */
+.fourthPage {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    width: 100%;
+}
+.fourthPage h1 {
+    font-family: raleway;
+    color: #5c1cc4;
+    font-weight: 600;
+    font-size: calc(var(--index) * 2);
+}
+.fourthPage-element {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-items: center;
+    justify-content: space-around;
+}
+@media screen and (max-width: 1000px) {
+    .fourthPage {
+        padding-top: 20%;
+    }
+    .fourthPage-element {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        justify-items: center;
+        margin: auto;
+    }
+}
+.fourthPage-pic{
+    width: 60%;
+}
+.fourthPage-text {
+    display: flex;
+    flex-direction: column;
+    font-size: calc(var(--index) * 1);
+    text-align: left;
+    justify-items: center;
+    justify-content: center;
+}
+.fourthPage-text p, li {
+    width: 90%;
+    color: #2d2d2d;
+}
+/* ------------------------------  5 PAGE  ------------------------------ */
+.fivePage {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.fivePage h1 {
+    font-family: raleway;
+    color: #5c1cc4;
+    font-weight: 600;
+    font-size: calc(var(--index) * 2);
+}
+@media screen and (max-width: 1000px) {
+    .fivePage h1{
+        padding-top: 20%;
+    }
+}
+.fivePage-element {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.fivePage-pic {
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+}
+.fivePage-pic2 {
+    position: absolute;
+    top: 412vh;
+    right: 25%;
+    width: 50%;
+    margin: auto;
+}
+.fivePage-element p {
+    line-height: 1.5;
+    padding-top: 4%;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    font-size: calc(var(--index) * 1);
+    color: #2d2d2d;
+}
+/* ------------------------------  6 PAGE  ------------------------------ */
+.sixPage {
+    padding-top: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.sixPage h1 {
+    font-family: raleway;
+    color: #5c1cc4;
+    font-weight: 600;
+    font-size: calc(var(--index) * 2);
+}
+@media screen and (max-width: 1000px) {
+    .sixPage h1{
+        padding-top: 20%;
+    }
+}
+.sixPage-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.sixPage-content p{
+    line-height: 1.5;
+    padding-top: 1%;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    font-size: calc(var(--index) * 1);
+    color: #2d2d2d;
+}
+.sixPage-pic {
+    width: 60%;
+    margin: auto;
+
+}
+/* ------------------------------  7 PAGE  ------------------------------ */
+.sevenPage {
+    padding-top: 20%;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 1000px) {
+    .sevenPage {
+        margin-top: 20%;
+    }
+}
+.sevenPage-element img {
+    width: 60%;
+}
+
+.eichpage {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
