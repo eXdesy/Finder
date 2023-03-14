@@ -5,7 +5,7 @@ Para comenzar, simplemente ingresa tu año de nacimiento en la pantalla principa
 
 Por ejemplo, si naciste en 1990, Finder te proporcionará información sobre algunos de los eventos más importantes de ese año, como la liberación de Nelson Mandela, la caída del Muro de Berlín y el inicio de la Guerra del Golfo.
 
-Finder es una aplicación increíblemente útil para aquellos que desean descubrir información relevante sobre su año de nacimiento. No importa en qué año naciste, Finder tiene algo para todos. <a href="https://exdesy.github.io/Web/Finder/index.html">¡Comienza a explorar!</a>
+Finder es una aplicación increíblemente útil para aquellos que desean descubrir información relevante sobre su año de nacimiento. No importa en qué año naciste, Finder tiene algo para todos. <a href="https://exdesy.github.io/Finder/index.html">¡Comienza a explorar!</a>
 
 ## Caso de Uso
 ![Caso de uso](https://github.com/eXdesy/Finder/blob/main/img/caso-de-uso.png)
