@@ -16,9 +16,9 @@ El código Javascript presentado permite a los usuarios buscar información en l
 - Seleccionar resultado para visualización detallada.
 
 ## Diagrama Logico
-![Diagrama Logico](https://github.com/eXdesy/Finder/blob/main/img/fisico.png)
+![Diagrama Fisico](https://github.com/eXdesy/Finder/blob/main/img/logico.png)
 Presenta en el código Javascript consta de dos componentes principales: la interfaz de usuario y la lógica de búsqueda. La interfaz de usuario es responsiva y permite al usuario escribir un término de búsqueda y realizar la búsqueda. La lógica de búsqueda se encarga de conectarse a la API pública de Wikipedia, enviar la consulta de búsqueda y procesar los resultados para mostrarlos en la interfaz de usuario.
 
 ## Diagrama Fisico
-![Diagrama Fisico](https://github.com/eXdesy/Finder/blob/main/img/logico.png)
+![Diagrama Logico](https://github.com/eXdesy/Finder/blob/main/img/fisico.png)
 Se observa que la interfaz de usuario se ejecuta en el navegador web del usuario, mientras que la lógica de búsqueda se ejecuta en el servidor de Wikipedia a través de una conexión a Internet. El servidor de Wikipedia se encarga de recibir la solicitud de búsqueda, procesarla y enviar los resultados de vuelta al navegador web del usuario.
