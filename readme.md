@@ -5,9 +5,9 @@ To get started, simply enter your year of birth on the main screen and click "Se
 
 For example, if you were born in 1990, Finder will provide information about some of the most important events from that year, such as the release of Nelson Mandela, the fall of the Berlin Wall, and the beginning of the Gulf War.
 
-Finder is an incredibly useful app for those who want to discover meaningful information about their birth year. No matter what year you were born, Finder has something for everyone. <a href="https://exdesy.github.io/Finder">Start exploring now!</a>
+Finder is an incredibly useful app for those who want to discover meaningful information about their birth year. No matter what year you were born, Finder has something for everyone.
 
-![Finder](img/untitled-6.png)  
+<a href="https://exdesy.github.io/Finder"><img src="img/untitled-6.png" alt="Finder"></a>
 
 ---
 
