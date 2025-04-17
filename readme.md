@@ -22,7 +22,7 @@ The provided JavaScript code allows users to search for information using the pu
 ---
 
 ## Logical Diagram
-![Logical Diagram](img/logico.png)  
+![Logical Diagram](img/untitled-5.png)  
 The JavaScript code consists of two main components: the user interface and the search logic. The user interface is responsive and allows the user to enter a search term and initiate the search. The search logic handles connecting to the public Wikipedia API, sending the search query, and processing the results to display them in the user interface.
 
 ---
