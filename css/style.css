@@ -1,0 +1,319 @@
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-items: center;
+}
+.page {
+	display: flex;
+	flex-direction: column;
+	padding-block: var(--padding-size);
+}
+/* ------------------------------  1 PAGE  ------------------------------ */
+.firstPage {
+	flex-direction: row;
+}
+.firstPage__container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+.firstPage__image--one,
+.firstPage__image--two {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+.firstPage__image--one img {
+	width: 30%;
+	height: auto;
+}
+.firstPage__image--two img {
+	width: 100%;
+	height: auto;
+}
+#typed {
+	color: var(--blue-color);
+	font-weight: 600;
+	font-size: 2em;
+}
+/* ------------------------------  2 PAGE  ------------------------------ */
+.secondPage {
+	flex-direction: row;
+}
+.secondPage__image {
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.secondPage__image img {
+	width: 100%;
+	height: auto;
+}
+.secondPage__text {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: space-around;
+	padding-inline: var(--padding-size);
+}
+.secondPage__text h1 {
+	font-weight: 600;
+	font-size: 2.5em;
+	color: var(--blue-color);
+}
+.secondPage__text p {
+	font-size: 1.5em;
+}
+/* ------------------------------  3 PAGE  ------------------------------ */
+.thristPage {
+	gap: var(--padding-size);
+}
+.thristPage h1 {
+	text-align: center;
+	font-weight: 600;
+	font-size: 2.5em;
+	color: inherit;
+}
+.thristPage__image {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+.thristPage__image img {
+	width: 90%;
+	height: auto;
+}
+/* ------------------------------  4 PAGE  ------------------------------ */
+.fourthPage h1 {
+	text-align: center;
+	color: var(--blue-color);
+	font-weight: 600;
+	font-size: 2.5em;
+}
+.fourthPage__container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	width: 100%;
+	padding: var(--padding-size);
+}
+.fourthPage__image {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+.fourthPage__image img {
+	width: 100%;
+	height: auto;
+}
+.fourthPage__text {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	padding-inline: var(--padding-size);
+	gap: var(--padding-size);
+	color: var(--black-color);
+	font-size: 1.25em;
+}
+/* ------------------------------  5 PAGE  ------------------------------ */
+.fivePage h1 {
+	text-align: center;
+	color: var(--blue-color);
+	font-weight: 600;
+	font-size: 2.5em;
+}
+.fivePage__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	width: 100%;
+	gap: var(--padding-size);
+	padding: var(--padding-size);
+}
+.fivePage__image {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+.fivePage__image img {
+	width: 60%;
+	height: auto;
+}
+.fivePage__text {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: auto;
+	padding-inline: var(--padding-size);
+	color: var(--black-color);
+	font-size: 1.25em;
+}
+/* ------------------------------  6 PAGE  ------------------------------ */
+.sixPage h1 {
+	text-align: center;
+	color: var(--blue-color);
+	font-weight: 600;
+	font-size: 2.5em;
+}
+.sixPage__container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	width: 100%;
+	padding: var(--padding-size);
+}
+.sixPage__image {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+.sixPage__image img {
+	width: 100%;
+	height: auto;
+}
+.sixPage__text {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: auto;
+	padding-inline: var(--padding-size);
+	color: var(--black-color);
+	font-size: 1.25em;
+}
+/* ------------------------------  7 PAGE  ------------------------------ */
+.sevenPage__image {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: auto;
+}
+.sevenPage__image img {
+	width: 60%;
+	height: auto;
+}
+
+@media (max-width: 1080px) {
+	.page {
+		min-height: 70vh;
+	}
+	.firstPage {
+		min-height: 80vh;
+	}
+	.firstPage__image--one,
+	.firstPage__image--two {
+		width: 100%;
+		padding-inline: var(--padding-size);
+	}
+
+	.secondPage__text {
+		justify-content: center;
+		gap: var(--padding-size);
+	}
+	.secondPage__text h1 {
+		color: var(--white-color);
+	}
+
+	.thristPage {
+		justify-content: flex-start;
+		gap: var(--padding-size);
+	}
+	.thristPage__image {
+		flex-direction: column;
+		margin: 0;
+	}
+
+	.fourthPage__container {
+		flex-direction: column;
+		gap: var(--padding-size);
+	}
+
+	.fivePage__container {
+		justify-content: flex-start;
+		margin: 0;
+	}
+
+	.sixPage__container {
+		flex-direction: column;
+		justify-content: flex-start;
+		margin: 0;
+	}
+}
+@media (max-width: 480px) {
+	.page {
+		min-height: 60vh;
+	}
+	.firstPage {
+		min-height: 80vh;
+	}
+	.firstPage__image--one,
+	.firstPage__image--two {
+		width: 100%;
+		padding-inline: var(--padding-size);
+	}
+
+	.secondPage__text {
+		justify-content: center;
+		gap: var(--padding-size);
+	}
+	.secondPage__text h1 {
+		color: var(--white-color);
+	}
+
+	.thristPage {
+		justify-content: flex-start;
+		gap: var(--padding-size);
+	}
+	.thristPage__image {
+		flex-direction: column;
+		margin: 0;
+	}
+
+	.fourthPage__container {
+		flex-direction: column;
+		gap: var(--padding-size);
+	}
+
+	.fivePage__container {
+		justify-content: flex-start;
+		margin: 0;
+	}
+
+	.sixPage__container {
+		flex-direction: column;
+		justify-content: flex-start;
+		margin: 0;
+	}
+}

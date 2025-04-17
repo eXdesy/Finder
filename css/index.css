@@ -1,0 +1,114 @@
+/* ------------------------------  DEFOULT SETTINGS  ------------------------------ */
+*,
+*:after,
+*:before {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: outfit;
+}
+a {
+	text-decoration: none;
+}
+ul, ol, li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+/* ------------------------------  FONTS  ------------------------------ */
+@font-face {
+	font-family: outfit;
+	src: url(../libs/fonts/outfit-regular.woff2);
+}
+@font-face {
+	font-family: raleway;
+	src: url(../libs/fonts/raleway-regular.woff2);
+}
+@font-face {
+	font-family: raleway;
+	src: url(../libs/fonts/raleway-black.woff2);
+	font-weight: 900;
+}
+/* ------------------------------  VARIABLES  ------------------------------ */
+:root {
+	--white-color: #e7e7e0;
+	--black-color: #2d2d2d;
+	--blue-color: #5c1cc4;
+
+	--index: calc(1vw + 1vh);
+	--font-size: calc(var(--index) * 1);
+	--padding-size: calc(var(--index) * 2);
+	--invert-color: brightness(0) invert(1);
+}
+.wrapper {
+	min-height: 100vh;
+	width: 100%;
+	margin: auto;
+	/* -----  FOOTER IS ALWAYS BOTTOM...X  ----- */
+	display: flex;
+	flex-direction: column;
+}
+.content {
+	margin: 0;
+	/* -----  CONTENT BORDER  ----- */
+	max-width: 100%;
+}
+main {
+	/* -----  X...AFTER MAIN  ----- */
+	flex: 1 1 auto;
+}
+
+body {
+	width: 100%;
+	background: linear-gradient(75deg, #af0273, #784ba0, #000ba4);
+	animation: gradient 5s ease infinite;
+	background-size: 200% 200%;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	font-size: var(--font-size);
+	font-family: raleway;
+	color: var(--white-color);
+}
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: var(--invert-color);
+}
+.background img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/* ------------------------------  HEADER...  ------------------------------ */
+header {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	padding-block: 10px;
+	padding-inline: var(--padding-size);
+}
+header h1 {
+	color: var(--black-color);
+}
+/* ------------------------------  FOOTER...  ------------------------------ */
+footer {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-block: var(--padding-size);
+}
+footer h1 {
+	color: var(--white-color);
+}
